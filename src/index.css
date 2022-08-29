@@ -1,0 +1,207 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-transform: capitalize;
+  font-family: cursive;
+}
+
+body{
+  width: 100%;
+  height: 100vh;
+  background-color: #f3f3f5;
+  overflow: hidden;
+ 
+}
+section.header{
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: rgba(46, 37, 214, 0.763);
+ padding: 10px 0;
+ box-shadow: 0 5px 15px 5px rgba(0,0,0,0.1);
+}
+section h1{
+  color: #fff;
+  font-size: bold;
+  font-size: 25px;
+}
+.header-content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+}
+.header-content .icon-shop{
+  margin: 0 5px;
+  font-size: 25px;
+  cursor: pointer;
+}
+.header-content span{
+  padding: 5px 7px;
+  background-color: #f3f3f5;
+  border-radius: 50%;
+  border: 1px solid #000;
+  font-weight: bold;
+}
+
+
+
+.products{
+  width: 100%;
+  display: grid;
+  place-items: center;
+  margin-top: 70px;
+}
+
+article{
+  box-shadow: 0 2px 5px 3px rgba(0,0,0,0.1);
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+article .details-product{
+  display: flex;
+  align-items: center;
+}
+article .details-product img{
+  width: 100px;
+}
+article .details-product div{
+  width: 400px;
+  margin: 0 10px;
+}
+.details-product div p{
+  margin: 10px 0;
+  color: rgb(86, 82, 82);
+}
+.details-product div span{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+article .buttons{
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+}
+
+
+/* single Products Styles */
+article .buttons div{
+  display: flex;
+  align-items: center;
+}
+article .buttons div p{
+  font-size: 17px;
+  font-weight: bold;
+}
+article .buttons div span{
+  margin: 0 5px;
+  font-size: 17px;
+  font-weight: bold;
+}
+article .buttons .trash-incons{
+  border: 1px solid #000;
+  font-size: 40px;
+  padding: 10px;
+  border-radius: 40%;
+  cursor: pointer;
+}
+
+
+
+
+article .buttons button{
+  margin: 10px 0;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid #000;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+article .buttons #add-cart{
+  background-color: rgb(48, 44, 44);
+  color: #fff;
+  transition: all 0.3s ease-in;
+}
+
+article .buttons #add-cart:hover{
+  background-color: rgb(80, 76, 76);
+  color: #fff;
+}
+
+/* SINGLE PAGE STYLES STARTE HERE */
+
+section.single-Product{
+   width: 100%;
+   height: 90vh;
+    background-color: #f3f3f5;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 75px;
+    left: 0;
+}
+.box-content article{
+  margin: 10px 0;
+}
+.incons-arrow-left{
+  position: absolute;
+  top: 70px;
+  left: 20%;
+  font-size: 45px;
+  cursor: pointer;
+}
+
+.box-total-display{
+  position: absolute;
+  width: 300px;
+  top: 30px;
+  right: 70px;
+  padding: 20px;
+  box-shadow: 0 2px 5px 3px rgba(0,0,0,0.1);
+  border-radius: 10px;
+}
+.box-total-display div{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 15px 0;
+}
+.box-total-display div p{
+  font-weight: bold;
+}
+.box-total-display button{
+  padding: 8px 12px;
+  background-color: rgba(46, 37, 214, 0.763);
+  color: #f3f3f5;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 2px solid #000;
+  width: 100%;
+}
+
+.discrept-text{
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 55px ;
+}
+
+
+
+
+
+
